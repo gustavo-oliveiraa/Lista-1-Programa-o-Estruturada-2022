@@ -1,3 +1,9 @@
+/*
+Nome: Gustavo Maxwel de Sousa Oliveira
+Matrícula: UC21101257
+Matéria: Programação estruturada
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
