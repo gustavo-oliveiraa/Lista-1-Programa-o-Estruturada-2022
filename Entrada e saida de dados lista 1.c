@@ -7,7 +7,7 @@ int main(){
 	
 	char Rs[100], Nome[100], Ender[100], Comp[100], Bairro[100], Est[10], City[30], op, Email[30], opEmail[5], placa1[10], placa2[10], placa3[10],  modelo1[20], modelo2[20], modelo3[20], AssResp[30], cor1[15], cor2[15], cor3[15]; 
 	char Cep[20], Tel1[20], Tel2[20], CPF[20], CNPJ[20], InscE[25], InscM[25], CNAE[25], DataN[20], ContResp[20], TelCom[20], DataH[20];
-	int Num, DDD1, DDD2, NumVeic = 0, ano1, ano2 = 0, ano3 = 0;
+	int Num = 0, DDD1 = 0, DDD2 = 0, NumVeic = 0, ano1 = 0, ano2 = 0, ano3 = 0;
 		
 	printf("Digite a Razão Social:");
 	scanf("%[^\n]s", &Rs);
