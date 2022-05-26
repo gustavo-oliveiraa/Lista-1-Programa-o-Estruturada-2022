@@ -1,3 +1,9 @@
+/*
+Nome: Gustavo Maxwel de Sousa Oliveira
+Matr√≠cula: UC21101257
+Mat√©ria: Programa√ß√£o estruturada
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -9,16 +15,16 @@ int main(){
 	char Cep[20], Tel1[20], Tel2[20], CPF[20], CNPJ[20], InscE[25], InscM[25], CNAE[25], DataN[20], ContResp[20], TelCom[20], DataH[20];
 	int Num = 0, DDD1 = 0, DDD2 = 0, NumVeic = 0, ano1 = 0, ano2 = 0, ano3 = 0;
 		
-	printf("Digite a Raz„o Social:");
+	printf("Digite a Raz√£o Social:");
 	scanf("%[^\n]s", &Rs);
 	fflush(stdin);	
 	printf("Digite o Nome Completo:");
 	scanf("%[^\n]s", &Nome);
 	fflush(stdin);		
-	printf("Digite o endereÁo:");
+	printf("Digite o endere√ßo:");
 	scanf("%[^\n]s", &Ender);
 	fflush(stdin);		
-	printf("Digite o N˙mero:");
+	printf("Digite o N√∫mero:");
 	scanf("%d", &Num);
 	fflush(stdin);		
 	printf("Digite o Complemento:");
@@ -52,7 +58,7 @@ int main(){
 	scanf("%s", &CPF);
 	fflush(stdin);
 		
-	printf("VocÍ È uma pessoa JurÌdica? Digite (s) - sim ou (n) - n„o:");
+	printf("Voc√™ √© uma pessoa Jur√≠dica? Digite (s) - sim ou (n) - n√£o:");
 	scanf("%s", &op);
 	fflush(stdin);
 	
@@ -76,10 +82,10 @@ int main(){
 			printf("Digite seu E-mail:");
 			scanf("%s", &Email);
 			fflush(stdin);			
-			printf("Deseja receber os prÛximos boletos por E-mail? (s) - sim ou (n) - n„o:");
+			printf("Deseja receber os pr√≥ximos boletos por E-mail? (s) - sim ou (n) - n√£o:");
 			scanf("%s", &opEmail);
 			fflush(stdin);			
-			printf("Digite o Contato do Respons·vel:");
+			printf("Digite o Contato do Respons√°vel:");
 			scanf("%s", &ContResp);
 			fflush(stdin);			
 			printf("Digite o Telefone Comercial:");
@@ -88,11 +94,11 @@ int main(){
 			printf("Digite a Data de hoje:");
 			scanf("%s", &DataH);
 			fflush(stdin);			
-			printf("Assinatura do Respons·vel:");
+			printf("Assinatura do Respons√°vel:");
 			scanf("%[^\n]s", &AssResp);
 			fflush(stdin);			
 			
-			printf("Quantos veÌculos gostaria de registrar min - (1) e max - (3):");
+			printf("Quantos ve√≠culos gostaria de registrar min - (1) e max - (3):");
 			scanf("%d", &NumVeic);
 			fflush(stdin);
 			
@@ -100,16 +106,16 @@ int main(){
 				
 				case 1: 
 				
-				printf("Digite a placa do veÌculo 1:");
+				printf("Digite a placa do ve√≠culo 1:");
 				scanf("%s", &placa1);
 				fflush(stdin);
-				printf("Digite o modelo do veÌculo 1:");
+				printf("Digite o modelo do ve√≠culo 1:");
 				scanf("%[^\n]s", &modelo1);
 				fflush(stdin);				
-				printf("Digite o ano do veÌculo 1:");
+				printf("Digite o ano do ve√≠culo 1:");
 				scanf("%d", &ano1);
 				fflush(stdin);				
-				printf("Digite a cor do veÌculo 1:");
+				printf("Digite a cor do ve√≠culo 1:");
 				scanf("%[^\n]s", &cor1);
 				fflush(stdin);
 				
@@ -117,29 +123,29 @@ int main(){
 				
 				case 2: 
 				
-				printf("Digite a placa do veÌculo 1:");
+				printf("Digite a placa do ve√≠culo 1:");
 				scanf("%s", &placa1);
 				fflush(stdin);
-				printf("Digite o modelo do veÌculo 1:");
+				printf("Digite o modelo do ve√≠culo 1:");
 				scanf("%[^\n]s", &modelo1);
 				fflush(stdin);				
-				printf("Digite o ano do veÌculo 1:");
+				printf("Digite o ano do ve√≠culo 1:");
 				scanf("%d", &ano1);
 				fflush(stdin);				
-				printf("Digite a cor do veÌculo 1:");
+				printf("Digite a cor do ve√≠culo 1:");
 				scanf("%[^\n]s", &cor1);
 				fflush(stdin);
 							
-				printf("Digite a placa do veÌculo 2:");
+				printf("Digite a placa do ve√≠culo 2:");
 				scanf("%s", &placa2);
 				fflush(stdin);				
-				printf("Digite o modelo do veÌculo 2:");
+				printf("Digite o modelo do ve√≠culo 2:");
 				scanf("%[^\n]s", &modelo2);
 				fflush(stdin);
-				printf("Digite o ano do veÌculo 2:");
+				printf("Digite o ano do ve√≠culo 2:");
 				scanf("%d", &ano2);
 				fflush(stdin);	
-				printf("Digite a cor do veÌculo 2:");
+				printf("Digite a cor do ve√≠culo 2:");
 				scanf("%[^\n]s", &cor2);
 				fflush(stdin);
 				
@@ -147,42 +153,42 @@ int main(){
 				
 				case 3:
 				
-				printf("Digite a placa do veÌculo 1:");
+				printf("Digite a placa do ve√≠culo 1:");
 				scanf("%s", &placa1);
 				fflush(stdin);
-				printf("Digite o modelo do veÌculo 1:");
+				printf("Digite o modelo do ve√≠culo 1:");
 				scanf("%[^\n]s", &modelo1);
 				fflush(stdin);				
-				printf("Digite o ano do veÌculo 1:");
+				printf("Digite o ano do ve√≠culo 1:");
 				scanf("%d", &ano1);
 				fflush(stdin);				
-				printf("Digite a cor do veÌculo 1:");
+				printf("Digite a cor do ve√≠culo 1:");
 				scanf("%[^\n]s", &cor1);
 				fflush(stdin);
 								
-				printf("Digite a placa do veÌculo 2:");
+				printf("Digite a placa do ve√≠culo 2:");
 				scanf("%s", &placa2);
 				fflush(stdin);				
-				printf("Digite o modelo do veÌculo 2:");
+				printf("Digite o modelo do ve√≠culo 2:");
 				scanf("%[^\n]s", &modelo2);
 				fflush(stdin);				
-				printf("Digite o ano do veÌculo 2:");
+				printf("Digite o ano do ve√≠culo 2:");
 				scanf("%d", &ano2);
 				fflush(stdin);				
-				printf("Digite a cor do veÌculo 2:");
+				printf("Digite a cor do ve√≠culo 2:");
 				scanf("%[^\n]s", &cor2);
 				fflush(stdin);
 								
-				printf("Digite a placa do veÌculo 3:");
+				printf("Digite a placa do ve√≠culo 3:");
 				scanf("%s", &placa3);
 				fflush(stdin);				
-				printf("Digite o modelo do veÌculo 3:");
+				printf("Digite o modelo do ve√≠culo 3:");
 				scanf("%[^\n]s", &modelo3);
 				fflush(stdin);				
-				printf("Digite o ano do veÌculo 3:");
+				printf("Digite o ano do ve√≠culo 3:");
 				scanf("%d", &ano3);
 				fflush(stdin);				
-				printf("Digite a cor do veÌculo 3:");
+				printf("Digite a cor do ve√≠culo 3:");
 				scanf("%[^\n]s", &cor3);
 				fflush(stdin);
 				
@@ -190,7 +196,7 @@ int main(){
 				
 				default:
 					
-					printf("N˙mero incorreto.");
+					printf("N√∫mero incorreto.");
 					
 			}
 			
@@ -204,7 +210,7 @@ int main(){
 			printf("Digite seu E-mail:");
 			scanf("%s", &Email);
 			fflush(stdin);			
-			printf("Deseja receber os prÛximos boletos por E-mail? (s) - sim ou (n) - n„o:");
+			printf("Deseja receber os pr√≥ximos boletos por E-mail? (s) - sim ou (n) - n√£o:");
 			scanf("%s", &opEmail);
 			fflush(stdin);			
 			printf("Digite o Telefone Comercial:");
@@ -213,11 +219,11 @@ int main(){
 			printf("Digte a Data de hoje:");
 			scanf("%s", &DataH);
 			fflush(stdin);			
-			printf("Assinatura do Respons·vel:");
+			printf("Assinatura do Respons√°vel:");
 			scanf("%[^\n]s", &AssResp);
 			fflush(stdin);
 			
-			printf("Quantos veÌculos gostaria de registrar min - (1) e max - (3):");
+			printf("Quantos ve√≠culos gostaria de registrar min - (1) e max - (3):");
 			scanf("%d", &NumVeic);
 			fflush(stdin);
 			
@@ -225,16 +231,16 @@ int main(){
 	
 				case 1: 
 				
-				printf("Digite a placa do veÌculo 1:");
+				printf("Digite a placa do ve√≠culo 1:");
 				scanf("%s", &placa1);
 				fflush(stdin);
-				printf("Digite o modelo do veÌculo 1:");
+				printf("Digite o modelo do ve√≠culo 1:");
 				scanf("%[^\n]s", &modelo1);
 				fflush(stdin);				
-				printf("Digite o ano do veÌculo 1:");
+				printf("Digite o ano do ve√≠culo 1:");
 				scanf("%d", &ano1);
 				fflush(stdin);				
-				printf("Digite a cor do veÌculo 1:");
+				printf("Digite a cor do ve√≠culo 1:");
 				scanf("%[^\n]s", &cor1);
 				fflush(stdin);
 				
@@ -242,29 +248,29 @@ int main(){
 				
 				case 2: 
 				
-				printf("Digite a placa do veÌculo 1:");
+				printf("Digite a placa do ve√≠culo 1:");
 				scanf("%s", &placa1);
 				fflush(stdin);				
-				printf("Digite o modelo do veÌculo 1:");
+				printf("Digite o modelo do ve√≠culo 1:");
 				scanf("%[^\n]s", &modelo1);
 				fflush(stdin);				
-				printf("Digite o ano do veÌculo 1:");
+				printf("Digite o ano do ve√≠culo 1:");
 				scanf("%d", &ano1);
 				fflush(stdin);
-				printf("Digite a cor do veÌculo 1:");
+				printf("Digite a cor do ve√≠culo 1:");
 				scanf("%[^\n]s", &cor1);
 				fflush(stdin);
 				
-				printf("Digite a placa do veÌculo 2:");
+				printf("Digite a placa do ve√≠culo 2:");
 				scanf("%s", &placa2);
 				fflush(stdin);				
-				printf("Digite o modelo do veÌculo 2:");
+				printf("Digite o modelo do ve√≠culo 2:");
 				scanf("%[^\n]s", &modelo2);
 				fflush(stdin);				
-				printf("Digite o ano do veÌculo 2:");
+				printf("Digite o ano do ve√≠culo 2:");
 				scanf("%d", &ano2);
 				fflush(stdin);				
-				printf("Digite a cor do veÌculo 2:");
+				printf("Digite a cor do ve√≠culo 2:");
 				scanf("%[^\n]s", &cor2);
 				fflush(stdin);
 				
@@ -272,42 +278,42 @@ int main(){
 				
 				case 3:
 				
-				printf("Digite a placa do veÌculo 1:");
+				printf("Digite a placa do ve√≠culo 1:");
 				scanf("%%s", &placa1);
 				fflush(stdin);				
-				printf("Digite o modelo do veÌculo 1:");
+				printf("Digite o modelo do ve√≠culo 1:");
 				scanf("%[^\n]s", &modelo1);
 				fflush(stdin);				
-				printf("Digite o ano do veÌculo 1:");
+				printf("Digite o ano do ve√≠culo 1:");
 				scanf("%d", &ano1);
 				fflush(stdin);				
-				printf("Digite a cor do veÌculo 1:");
+				printf("Digite a cor do ve√≠culo 1:");
 				scanf("%[^\n]s", &cor1);
 				fflush(stdin);
 				
-				printf("Digite a placa do veÌculo 2:");
+				printf("Digite a placa do ve√≠culo 2:");
 				scanf("%s", &placa2);
 				fflush(stdin);				
-				printf("Digite o modelo do veÌculo 2:");
+				printf("Digite o modelo do ve√≠culo 2:");
 				scanf("%[^\n]s", &modelo2);
 				fflush(stdin);				
-				printf("Digite o ano do veÌculo 2:");
+				printf("Digite o ano do ve√≠culo 2:");
 				scanf("%d", &ano2);
 				fflush(stdin);				
-				printf("Digite a cor do veÌculo 2:");
+				printf("Digite a cor do ve√≠culo 2:");
 				scanf("%[^\n]s", &cor2);
 				fflush(stdin);
 								
-				printf("Digite a placa do veÌculo 3:");
+				printf("Digite a placa do ve√≠culo 3:");
 				scanf("%s", &placa3);
 				fflush(stdin);				
-				printf("Digite o modelo do veÌculo 3:");
+				printf("Digite o modelo do ve√≠culo 3:");
 				scanf("%[^\n]s", &modelo3);
 				fflush(stdin);				
-				printf("Digite o ano do veÌculo 3:");
+				printf("Digite o ano do ve√≠culo 3:");
 				scanf("%d", &ano3);
 				fflush(stdin);				
-				printf("Digite a cor do veÌculo 3:");
+				printf("Digite a cor do ve√≠culo 3:");
 				scanf("%[^\n]s", &cor3);
 				fflush(stdin);
 				
@@ -315,7 +321,7 @@ int main(){
 				
 				default:
 					
-					printf("N˙mero incorreto.");
+					printf("N√∫mero incorreto.");
 					
 			}
 			
@@ -323,7 +329,7 @@ int main(){
 			
 			default:
 				
-				printf("OpÁ„o inv·lida.");
+				printf("Op√ß√£o inv√°lida.");
 			
 			}
 			
@@ -331,14 +337,14 @@ int main(){
 	
 	system("cls");
 			
-	printf("Raz„o Social e Nome Completo:\n");
+	printf("Raz√£o Social e Nome Completo:\n");
 	printf("%s\n", Rs);
 	printf("%s\n", Nome);
 	
-	printf("EndereÁo:\n");
+	printf("Endere√ßo:\n");
 	printf("%s\n", Ender);
 	
-	printf("N˙mero: \t Complemento: \t \t \t \t  Bairro:\n");
+	printf("N√∫mero: \t Complemento: \t \t \t \t  Bairro:\n");
 	printf("%d \t\t %s \t\t\t %s\n", Num, Comp, Bairro);
 	
 	printf("CEP: \t \t \t Estado: \t \t \t Cidade: \n");
@@ -353,19 +359,19 @@ int main(){
 	printf("Insc. Estadual: \t \t \t \t Insc. Municipal:\n");
 	printf("%s \t \t \t \t \t \t %s\n", InscE, InscM);
 	
-	printf("CNAE: \t \t \t Data de Nasc: \t \t \t Deseja receber os prÛximos boleto por e-mail?\n")/
+	printf("CNAE: \t \t \t Data de Nasc: \t \t \t Deseja receber os pr√≥ximos boleto por e-mail?\n")/
 	printf("%s \t \t \t %s \t \t \t \t\t  %s\n", CNAE, DataN, opEmail);
 	
 	printf("E-mail:\n");
 	printf("%s\n", Email);
 	
-	printf("Contato do Respons·vel (em caso de Pessoa JurÌdica) \t \t \t Telefone Comercial:\n");
+	printf("Contato do Respons√°vel (em caso de Pessoa Jur√≠dica) \t \t \t Telefone Comercial:\n");
 	printf("%s \t \t \t \t\t\t\t\t\t %s \n", ContResp, TelCom);
 	
 	printf("Data: \t \t \t \t \t \t \t \t \t %s\n", AssResp);
-	printf("%s \t \t \t \t \t \t \t Assinatura do Respons·vel\n\n", DataH);
+	printf("%s \t \t \t \t \t \t \t Assinatura do Respons√°vel\n\n", DataH);
 	
-	printf("DADOS DOS VEÕCULOS\n");
+	printf("DADOS DOS VE√çCULOS\n");
 	
 	if(NumVeic == 1){
 		
